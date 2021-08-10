@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe | Harshree Development</title>
+    <!-- navbar css -->
+    <link rel="stylesheet" href="navbar.css">
+    <!-- this page css -->
+    <link rel="stylesheet" href="TicTacToe.css">
+    <!-- external link - extra -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-8DN5TCP214"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-8DN5TCP214');
+    </script>
+</head>
+
+<body>
+    <nav id="navbar">
+        <div class="logoText"><a href="https://harsh-jagtap.github.io/Home-Page/">Harshree Development</a> </div>
+        <div id="category" class="resp">
+            <ul class="ul">
+                <li class="navi"><a href="https://harsh-jagtap.github.io/Home-Page/">Home</a></li>
+                <li class="navi"><a href="https://harsh-jagtap.github.io/My-Project/">My Project</a></li>
+                <li class="navi"><a href="#">Contact me</a></li>
+            </ul>
+        </div>
+    </nav>
+    <section>
+        <div class="heading">
+            <span>Tic Tac Toe</span>
+        </div>
+        <div class="tip">
+            <div class="restart">
+                <button id="reset">
+                    <i class="fas fa-redo-alt"></i> Restart 
+                </button>
+            </div>
+            <div id="description">
+                <!-- result is here displayed -->
+            </div>
+        </div>
+        <div id="rows">
+            <!-- game Will be here inserted  -->
+        </div>
+        <script src="TicTacToe.js" type="module">
+        </script>
+    </section>
+</body>
+
+</html>
