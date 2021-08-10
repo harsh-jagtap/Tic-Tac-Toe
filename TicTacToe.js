@@ -48,7 +48,7 @@ function _HandlePlayerClick(evt) {
     if (isBlank &&
         _GAMESTATE.active &&
         _GAMESTATE.turn == 'player') {
-        evt.target.src = 'x.png';
+        evt.target.src = 'x.PNG';
         _CheckGameOver();
         _AISelectMove();
     }
@@ -138,7 +138,7 @@ function _AISelectMove(blinks) {
 
     if (choice != null) {
         const [x, y] = choice;
-        document.getElementById(x + '.' + y).src = 'o.png';
+        document.getElementById(x + '.' + y).src = 'o.PNG';
     }
 
     _CheckGameOver();
