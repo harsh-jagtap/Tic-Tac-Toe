@@ -81,9 +81,9 @@ function _GetBoardStates() {
         const row = [];
         for (let y = 0; y < 3; y++) {
             const node = document.getElementById(x + '.' + y);
-            if (node.src.includes('x.png')) {
+            if (node.src.includes('x.PNG')) {
                 row.push(BOARD_STATE.player);
-            } else if (node.src.includes('o.png')) {
+            } else if (node.src.includes('o.PNG')) {
                 row.push(BOARD_STATE.ai);
             } else {
                 row.push(BOARD_STATE.blank);
